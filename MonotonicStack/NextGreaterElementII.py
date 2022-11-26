@@ -1,3 +1,6 @@
+
+#TimeComplexity: O(n)
+#SpaceComplexity: O(n)
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         result = [-1]*len(nums) # creating resultant array with len of nums with value -1
